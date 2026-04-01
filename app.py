@@ -46,6 +46,8 @@ LAYOUT_DEFAULTS = dict(
     margin=dict(l=40, r=20, t=50, b=40),
     legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
     hovermode="x unified",
+    xaxis=dict(tickfont=dict(color="black"), title_font=dict(color="black")),
+    yaxis=dict(tickfont=dict(color="black"), title_font=dict(color="black")),
 )
 
 
