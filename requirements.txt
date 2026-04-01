@@ -3,7 +3,7 @@
 
 # Dashboard
 streamlit>=1.35.0
-plotly>=5.20.0
+plotly>=5.20.0,<6.0.0
 
 # Core
 pandas>=2.0.0
