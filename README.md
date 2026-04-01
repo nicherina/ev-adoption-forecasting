@@ -7,6 +7,12 @@
 
 ---
 
+## Dashboard Preview
+
+![Power BI Dashboard](dashboard_preview.png)
+
+---
+
 ## Project Overview
 
 This project forecasts the future demand for electric vehicles (EVs) in Germany, answering the question:
