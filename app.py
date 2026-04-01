@@ -22,7 +22,12 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-pio.templates.default = "plotly_white"
+_black_font = go.layout.Template()
+_black_font.layout.font = dict(color="black")
+_black_font.layout.xaxis = dict(tickfont=dict(color="black"), title_font=dict(color="black"))
+_black_font.layout.yaxis = dict(tickfont=dict(color="black"), title_font=dict(color="black"))
+pio.templates["black_font"] = _black_font
+pio.templates.default = "plotly_white+black_font"
 
 # ── Constants ─────────────────────────────────────────────────────────────────
 COLORS = {
@@ -46,8 +51,6 @@ LAYOUT_DEFAULTS = dict(
     margin=dict(l=40, r=20, t=50, b=40),
     legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
     hovermode="x unified",
-    xaxis=dict(tickfont=dict(color="black"), title_font=dict(color="black")),
-    yaxis=dict(tickfont=dict(color="black"), title_font=dict(color="black")),
 )
 
 
