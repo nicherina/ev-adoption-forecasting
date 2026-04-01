@@ -1,0 +1,40 @@
+year,value,type,model,is_forecast
+2010.0,541.0,Actual,Actual,False
+2011.0,2154.0,Actual,Actual,False
+2012.0,2956.0,Actual,Actual,False
+2013.0,6051.0,Actual,Actual,False
+2014.0,8522.0,Actual,Actual,False
+2015.0,12363.0,Actual,Actual,False
+2016.0,11410.0,Actual,Actual,False
+2017.0,25056.0,Actual,Actual,False
+2018.0,36062.0,Actual,Actual,False
+2019.0,63281.0,Actual,Actual,False
+2020.0,194163.0,Actual,Actual,False
+2021.0,355961.0,Actual,Actual,False
+2022.0,470559.0,Actual,Actual,False
+2023.0,524219.0,Actual,Actual,False
+2024.0,380609.0,Actual,Actual,False
+2022.0,369240.86351394653,Forecast,Linear Regression,True
+2023.0,468257.345993042,Forecast,Linear Regression,True
+2024.0,578292.8264732361,Forecast,Linear Regression,True
+2025.0,699347.3049468994,Forecast,Linear Regression,True
+2026.0,831420.7814292908,Forecast,Linear Regression,True
+2027.0,974513.255897522,Forecast,Linear Regression,True
+2028.0,1128624.7283744812,Forecast,Linear Regression,True
+2029.0,1293755.198841095,Forecast,Linear Regression,True
+2022.0,473914.6336398267,Forecast,"ARIMA (1,1,1)",True
+2023.0,570603.752744286,Forecast,"ARIMA (1,1,1)",True
+2024.0,649861.8939707188,Forecast,"ARIMA (1,1,1)",True
+2025.0,714831.4894004022,Forecast,"ARIMA (1,1,1)",True
+2026.0,768088.4578957596,Forecast,"ARIMA (1,1,1)",True
+2027.0,811744.3353036039,Forecast,"ARIMA (1,1,1)",True
+2028.0,847529.9927695347,Forecast,"ARIMA (1,1,1)",True
+2029.0,876864.2624328177,Forecast,"ARIMA (1,1,1)",True
+2021.0,413903.632271439,Forecast,Prophet,True
+2022.0,513203.8601157849,Forecast,Prophet,True
+2023.0,612504.0879601305,Forecast,Prophet,True
+2024.0,712076.3712232277,Forecast,Prophet,True
+2025.0,811376.5990675736,Forecast,Prophet,True
+2026.0,910676.8269119193,Forecast,Prophet,True
+2027.0,1009977.0547562647,Forecast,Prophet,True
+2028.0,1109549.3380193622,Forecast,Prophet,True

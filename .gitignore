@@ -1,9 +1,8 @@
 # Data files (too large for GitHub)
 data/raw_ocm_data.json
-data/*.csv
 
-# Keep the outputs folder but not large files
-outputs/*.csv
+# Archive folder
+archive/
 
 # Python
 __pycache__/
