@@ -40,6 +40,7 @@ MODEL_COLORS = {
 LAYOUT_DEFAULTS = dict(
     font_family="Inter, Arial, sans-serif",
     font_size=12,
+    font_color="black",
     plot_bgcolor="white",
     paper_bgcolor="white",
     margin=dict(l=40, r=20, t=50, b=40),
