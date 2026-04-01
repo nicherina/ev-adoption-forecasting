@@ -1,7 +1,9 @@
 # EV Adoption Forecasting — Germany (2025–2029)
 
 > **Portfolio Project** | Nisrina Afnan Walyadin
-> Skills demonstrated: Python · Time-Series Forecasting · ARIMA · Prophet · Polynomial Regression · Power BI · Data Pipeline Design
+> Skills demonstrated: Python · Time-Series Forecasting · ARIMA · Prophet · Polynomial Regression · Streamlit · Power BI · Data Pipeline Design
+>
+> **Live Dashboard:** https://ev-adoption-forecasting-k3j6g8qwta8xaxgwx6fdkr.streamlit.app
 
 ---
 
@@ -53,6 +55,7 @@ ev_adoption_forecast/
 |   +-- germany_ev_regional.csv     # BEV stock per Bundesland (2024)
 |   +-- eu_ev_comparison_2023.csv   # EU country benchmark (2023)
 |
++-- app.py                          # Streamlit dashboard (5 pages, interactive Plotly charts)
 +-- requirements.txt
 +-- README.md
 ```
@@ -157,7 +160,9 @@ This analysis demonstrates skills directly applicable to roles at EV infrastruct
 | Scikit-learn | Polynomial regression |
 | Statsmodels | ARIMA |
 | Prophet | Bayesian structural time series |
-| Matplotlib / Seaborn | Visualisation |
+| Matplotlib / Seaborn | Static visualisation |
+| Streamlit | Interactive web dashboard |
+| Plotly | Interactive charts |
 | Power BI | Business intelligence dashboard |
 
 ---
